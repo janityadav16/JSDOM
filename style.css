@@ -6,9 +6,31 @@
 .f1 img {
   display: inline-block;
 }
-.f2 img{
+
+.f2 img {
   float: right;
 }
-.f3{
+
+.f3 {
   float: left;
+}
+
+.container {
+
+  justify-content: center;
+}
+
+.container .t1 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: inline;
+
+}
+
+.container .t2 img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  display: inline;
 }
