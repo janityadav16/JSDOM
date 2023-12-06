@@ -1,10 +1,10 @@
 # Practical Files Hub
 
-Welcome to the Practical Files Hub repository! We're excited to have you here.
+Welcome to the JSDOM repository! We're excited to have you here.
 
 ## About
 
-Practical Files Hub is a platform dedicated to providing a comprehensive collection of practical files and assignments for students. As the owner and tech lead, Nakul, a dedicated student, aims to make this repository a go-to resource for academic support.
+Practical Files Hub is a platform dedicated to providing a comprehensive collection of practical files and assignments for students. As the owner and tech lead, Nakul,Janit a dedicated student, aims to make this repository a go-to resource for academic support.
 
 ## Features
 
