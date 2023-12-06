@@ -1,36 +1,33 @@
-.f1 p {
-  float: right;
-  display: inline-block;
-}
-
-.f1 img {
-  display: inline-block;
-}
-
-.f2 img {
-  float: right;
-}
-
-.f3 {
-  float: left;
-}
-
-.container {
-
-  justify-content: center;
-}
-
-.container .t1 img {
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
+.t1,
+.t2 {
   display: inline;
-
+  margin-right: 20px; /* Adjust the margin as needed */
 }
 
-.container .t2 img {
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
+.social-links {
   display: inline;
+}
+
+/* Add the following style to make the images inline */
+.t1 img,
+.t2 img,
+.social-links img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+/* Add the following style to make the paragraphs inline */
+.t1 p,
+.t2 p {
+  display: inline-block;
+  margin-left: 5px;
+  border-radius: 100%;/* Adjust the margin as needed */
+}
+
+/* Add the following style to make the anchor tags inline */
+.social-links a {
+  display: inline-block;
+  margin-right: 10px; /* Adjust the margin as needed */
 }
