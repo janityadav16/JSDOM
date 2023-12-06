@@ -5,7 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Files</title>
+  <style>
+    .pricing-table {
+      background-color: #eee;
+      font-family: 'Montserrat', sans-serif;
+    }
 
+    .pricing-table .block-heading {
+      padding-top: 50px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .pricing-table .block-heading h2 {
+      color: #DC3545;
+    }
+
+    .pricing-table .block-heading p {
+      text-align: center;
+      max-width: 420px;
+      margin: auto;
+      opacity: 0.7;
+    }
+
+    .pricing-table .heading {
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .pricing-table .item {
+      background-color: #ffffff;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+      border-top: 2px solid #DC3545;
+      padding: 30px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .pricing-table .col-md-5:not(:last-child) .item {
+      margin-bottom: 30px;
+    }
+
+    .pricing-table .item button {
+      font-weight: 600;
+    }
+
+    .pricing-table .ribbon {
+      width: 160px;
+      height: 32px;
+      font-size: 12px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+      background: #4dbe3b;
+      transform: rotate(45deg);
+      position: absolute;
+      right: -42px;
+      top: 20px;
+      padding-top: 7px;
+    }
+
+    .pricing-table .item p {
+      text-align: center;
+      margin-top: 20px;
+      opacity: 0.7;
+    }
+
+    .pricing-table .features .feature {
+      font-weight: 600;
+    }
+
+    .pricing-table .features h4 {
+      text-align: center;
+      font-size: 18px;
+      padding: 5px;
+    }
+
+    .pricing-table .price h4 {
+      margin: 15px 0;
+      font-size: 45px;
+      text-align: center;
+      color: #DC3545;
+    }
+
+    .pricing-table .buy-now button {
+      text-align: center;
+      margin: auto;
+      font-weight: 600;
+      padding: 9px 0;
+    }
+  </style>
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -125,89 +216,117 @@
     </div>
   </section>
   <section id="features">
-  <div class="container">
-     <h2 class="text-center pt-4 pb-3">Features</h2>
-     <div class="f1">
-       <ul class="pt-4 pb-5">
-         <li class="text-justify" style="font-size: 18px; font-weight: 600;">User-frienfly interface</li>
-         <li class="text-justify" style="font-size: 18px; font-weight: 600;">One day delivery for premium users</li>
-         <li class="text-justify" style="font-size: 18px; font-weight: 600;">Pickup and Drop avaliable</li>
-         <li class="text-justify" style="font-size: 18px; font-weight: 600;">For limited members</li>
-       </ul>
-  </div>  
+    <div class="container">
+      <h2 class="text-center pt-4 pb-3">Features</h2>
+      <div class="f1">
+        <ul class="pt-4 pb-5">
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Two day delivery for premium users</li>
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Pickup and Drop avaliable</li>
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Assignment,sheets and practical files that
+            need written work</li>
+        </ul>
+      </div>
   </section>
 
   <section id="howitworks">
     <div class="container">
       <h2 class="text-center pt-4 pb-5">How it works</h2>
       <div class="f1">
-         <ol class="text-center pt-4 pb-5">
-        <li class="text-justify" style="font-size: 18px; font-weight: 600;">This is not avaliable for everyone only first 50 premium user</li>
-        <li class="text-justify" style="font-size: 18px; font-weight: 600;">We provide services for practical files,the charges for practical files depend on number of experiment to be done in the files so prices may vary</li>
-     
-     
-        <li class="text-justify" style="font-size: 18px; font-weight: 600;">We also focus on assignments that are written in assignment pages and prices changes according to the time of delivery</li>
-     
-     
-      
-        <li class="text-justify" style="font-size: 18px; font-weight: 600;">Sheets are also avaliable for B.Tech student's and there is no negotiation about delivery time and charge's</li>
+        <ol class="text-center pt-4 pb-5">
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">This is not avaliable for everyone only
+            first 50 premium user</li>
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Please register on the waitlist and
+            anticipate our response.</li>
 
 
-        <p>We provide services for practical files,the charges for practical files depend on number of experiment to be
-          done in the files so prices may vary</p>
-      </div>
-      <div class="f2">
-
-        <p>We also focus on assignments that are written in assignment pages and prices changes according to the time of
-          delivery</p>
-      </div>
-      <div class="f3">
-
-        <p>Sheets are also avaliable for B.Tech student's and there is no negotiation about delivery time and charge's
-        </p>
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Pay your invoice via UPI</li>
 
 
-           <li class="text-justify" style="font-size: 18px; font-weight: 600;">For premium user,one day delivery is avaliable despite of work load</li>
+
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">Deposite your file at the deposite center
+            at the college</li>
 
 
-         </ol>
+          <li class="text-justify" style="font-size: 18px; font-weight: 600;">For premium user,two day delivery is
+            avaliable despite of work load</li>
+
+        </ol>
+
 
       </div>
     </div>
   </section>
-  <section
-  
-    <h2 class="text-center mb-4">Our Pricing</h2>
+  <section class="pricing-table bg-light py-3" id="fee">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center pt-4 pb-5">Pricing</h2>
+        <div class="row justify-content-md-center">
+          <div class="col-md-5 col-lg-4">
+            <div class="item">
+              <div class="heading">
+                <h3>On Demand</h3>
+              </div>
+              <p></p>
+              <div class="features">
+                <h4><span class="feature">Assignment</span> : <span class="value">Rs.5/page</span>
+                </h4>
+                <h4><span class="feature">Practical file</span> : <span class="value">Rs.20/Experiment</span>
+                </h4>
+                <h4><span class="feature">Sheets</span> : <span class="value">Rs.100/sheet</span></h4>
 
-    <div class="container mt-4">
-      <table class="table table-bordered">
-        <thead class="thead-dark">
-          <tr>
-            <th>Product</th>
-            <th>Pricing</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Practical-files</td>
-            <td>Rs.400</td>
-          </tr>
-          <tr>
-            <td>Assignment</td>
-            <td>Rs.300</td>
-          </tr>
-          <tr>
-            <td>Sheets</td>
-            <td>Rs.300</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-         
-           
+              </div>
+
+
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="item">
+              <div class="ribbon">Best Value</div>
+              <div class="heading">
+                <h3>Subscription</h3>
+              </div>
+              <p></p>
+              <div class="features">
+                <h4><span class="feature">Assignment</span> : <span class="value">Rs.5/page</span>
+                </h4>
+                <h4><span class="feature">Practical file</span> : <span class="value">Rs.20/Experiment</span>
+                </h4>
+                <h4><span class="feature">Sheets</span> : <span class="value">Rs.100/sheet</span></h4>
+
+              </div>
+              <div class="price">
+                <h4>2.5k INR</h4>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="item">
+              <div class="heading">
+                <h3>Late bloomers</h3>
+              </div>
+              <p></p>
+              <div class="features">
+                <h4><span class="feature">Assignment</span> : <span class="value">Rs.5/page + 200 </span>
+                </h4>
+                <h4><span class="feature">Practical file</span> : <span class="value">Rs.400 + 200 </span>
+                </h4>
+                <h4><span class="feature">Sheets</span> : <span class="value">Rs.100/sheet + 100</span></h4>
+
+              </div>
+
+
+            </div>
+          </div>
+          <div class="action-section mt-4 text-center ">
+            <a class="btn btn-danger text-center" target="_blank" href="https://forms.gle/fErdqWHkdr5mQwLR6"
+              download>Join Now</a>
           </div>
         </div>
-    </section>
+
+      </div>
+    </div>
+  </section>
   <section class="certificate-section" id="support">
     <div class="container">
 
@@ -225,12 +344,9 @@
     <div class="container">
       <h2 class="text-center pt-4 pb-5">Team</h2>
 
-    
-     
-
-      <div class="row">
-        <div class="col">
-          <img src="https://nakul.dev/img/7.jpeg">
+      <div class="col">
+        <div class="t2">
+          <img src="https://nakul.dev/img/nakul.png">
           <p>Nakul yadav</p>
           <div class="social-links">
 
@@ -271,21 +387,21 @@
             <p>Janit yadav</p>
             <div class="social-links">
 
-              <a target="_blank" href="https://github.com/nakul1710" class="text-decoration-none py-3">
+              <a target="_blank" href="https://github.com/janityadav16" class="text-decoration-none py-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-github"
                   viewBox="0 0 16 16">
                   <path
                     d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
                 </svg>
               </a>
-              <a target="_blank" href="https://twitter.com/nakul1710" class="text-decoration-none py-3"><svg
+              <a target="_blank" href="https://twitter.com/janityadav16" class="text-decoration-none py-3"><svg
                   xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-twitter"
                   viewBox="0 0 16 16">
                   <path
                     d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
                   <a href="https://twitter.com/janityadav16">
                 </svg></a>
-              <a target="_blank" href="https://www.linkedin.com/in/nakul-yadav-a87bb5237/"
+              <a target="_blank" href="https://www.linkedin.com/in/janit-yadav-461140279/"
                 class="text-decoration-none py-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-linkedin"
                   viewBox="0 0 16 16">
