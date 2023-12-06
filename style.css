@@ -1,0 +1,14 @@
+.f1 p {
+  float: right;
+  display: inline-block;
+}
+
+.f1 img {
+  display: inline-block;
+}
+.f2 img{
+  float: right;
+}
+.f3{
+  float: left;
+}
